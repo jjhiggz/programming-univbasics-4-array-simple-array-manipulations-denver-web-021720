@@ -37,5 +37,5 @@ def using_delete_at(array,integer)
   return array.delete_at(integer)
 end
 array = ['a','b','c']
-a=pop_with_args(array,2)
+a=pop_with_args(array)
 puts a
